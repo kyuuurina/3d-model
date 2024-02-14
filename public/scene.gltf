@@ -1,0 +1,315 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 28778,
+      "max": [
+        1.243277668952942,
+        1.6602044105529785,
+        1.319610595703125
+      ],
+      "min": [
+        -1.2439560890197754,
+        -1.2165403366088867,
+        -1.3676353693008423
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 345336,
+      "componentType": 5126,
+      "count": 28778,
+      "max": [
+        0.999988317489624,
+        0.9999939203262329,
+        0.9997152090072632
+      ],
+      "min": [
+        -0.9999154806137085,
+        -0.999976396560669,
+        -0.9999830722808838
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 172734,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 690672,
+      "componentType": 5126,
+      "count": 12565,
+      "max": [
+        1.0045547485351563,
+        0.22282136976718903,
+        -0.5326441526412964
+      ],
+      "min": [
+        -1.0045547485351563,
+        -1.275752305984497,
+        -2.026399850845337
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 841452,
+      "componentType": 5126,
+      "count": 12565,
+      "max": [
+        0.9999839067459106,
+        0.9998126029968262,
+        0.9998024702072144
+      ],
+      "min": [
+        -0.9998551607131958,
+        -0.9999853372573853,
+        -0.999481201171875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 12565,
+      "max": [
+        0.8750001192092896,
+        1.0000101327896118
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 690936,
+      "componentType": 5125,
+      "count": 71709,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Filip (https://sketchfab.com/filip.hans.nyberg)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/free-human-skull-444884ba91f24d51bc34bb44779ef689",
+      "title": "Free Human skull"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 977772,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 100520,
+      "byteOffset": 977772,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 992232,
+      "byteOffset": 1078292,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2070524,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Mball.002__0",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Sphere_Material.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mball.002__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3,
+            "TEXCOORD_0": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "a54f2d783be04096bc6200e24283b11e.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        31.78887939453125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -6.021985070792096e-06,
+        -36.9626808166499,
+        0.0,
+        0.0,
+        31.78887939453083,
+        -5.179065828062022e-06,
+        0.0,
+        0.24669170379638672,
+        65.57096862792969,
+        -0.750654935836792,
+        1.0
+      ],
+      "name": "Sphere"
+    },
+    {
+      "mesh": 0,
+      "name": "Sphere_Material.001_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        31.78887939453125,
+        -3.5483905222192747e-15,
+        -9.567428457059663e-16,
+        0.0,
+        9.567425915404063e-16,
+        15.9805295611641,
+        -27.480095512384388,
+        0.0,
+        3.548390819132395e-15,
+        27.480095512384388,
+        15.9805295611641,
+        0.0,
+        0.24669170379638672,
+        59.6473503112793,
+        8.273937225341797,
+        1.0
+      ],
+      "name": "Mball.002"
+    },
+    {
+      "mesh": 1,
+      "name": "Mball.002__0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
